@@ -21,11 +21,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
        android:background="#ffffff"
         android:src="@drawable/on"
 
